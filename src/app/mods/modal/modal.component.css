@@ -1,0 +1,11 @@
+.actions:empty {
+  display: none;
+}
+
+.actions-default{
+  display: none;
+}
+/* + sign indicates sibling element */
+.actions:empty + .actions-default {
+  display: block;
+}
